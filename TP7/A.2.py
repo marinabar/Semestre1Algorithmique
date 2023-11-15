@@ -1,0 +1,10 @@
+nom=input("Quel est le nom ? ")
+f=open("Test"+nom+".txt", "w")
+f.write("Ceci est un test\n")
+f.write("Je m'appelle "+nom+"\n")
+f.write("Test terminé")
+f.close()
+
+f1=open("TestBis"+nom+".txt", "w")
+f1.writelines(["Ceci est un test\n", "Je m'appelle "+nom+"\n", "Test terminé"])
+f1.close()
