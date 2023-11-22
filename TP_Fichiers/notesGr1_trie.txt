@@ -1,0 +1,58 @@
+Armand	Erwan	11.96
+
+Armand	Ilies	9.97
+
+Aziz	Marvin	14.96
+
+Bakary	Aziz	17.1
+
+Benjamin	Anis	12.08
+
+Brian	Cyrus	12.18
+
+Bryan	Jawed	2.44
+
+Djibril	Pascal	2.61
+
+Eddy	Minh	12.31
+
+Fabio	Shawn	9.17
+
+Florian	Jacques	13.09
+
+Gabriel	Aksil	18.94
+
+Habib	Arthus	0.71
+
+Hedi	Souleymane	1.13
+
+Ilyass	Ayden	14.94
+
+Jassem	Silas	9.79
+
+Kacper	Clovis	15.09
+
+Kilian	Louca	16.42
+
+Killian	Tybalt	7.12
+
+Marouane	Ayaan	4.74
+
+Modibo	Ivan	6.67
+
+Nathanael	Steve	17.3
+
+Nil	Marco	15.46
+
+Noe	Alistair	7.48
+
+Nolan	Melchior	9.68
+
+Oscar	Sven	12.97
+
+Stanley	Timothee	11.47
+
+Theotime	Johan	0.9
+
+Tom	Remi	9.49
+

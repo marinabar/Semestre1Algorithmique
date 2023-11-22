@@ -1,5 +1,5 @@
-f=open("TP7/nombresDecimaux.txt", "r")
-far=open("TP7/nombresArrondis.txt", "w")
+f=open("TP_Fichiers/nombresDecimaux.txt", "r")
+far=open("TP_Fichiers/nombresArrondis.txt", "w")
 line=f.readline()
 while line:
     nb=float(line.strip("\n"))
