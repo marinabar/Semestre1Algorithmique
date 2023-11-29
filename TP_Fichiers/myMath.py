@@ -9,7 +9,7 @@ def binome(n, p):
 
 def triangle(n):
     for i in range(n+1):
-        print(binome(n, i), end=" ")
+        print(binome(n, i), end=" ")    
 
 
 # vérifie que le code soit lu en tant que fichier principal
