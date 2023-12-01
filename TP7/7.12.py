@@ -11,9 +11,12 @@ def affectation(E, S):
     l=[]
     totals=sum(S)
     totale=len(E)
-    vides=(totals-totale)%len(S)
+    vides=(totals-totale)//len(S)
+
+    print(vides)
     for el in S:
         lsalle=salle(E, el - vides)
+
         l.append(lsalle)
         E=[e for e in E if e not in lsalle]
     return l 
@@ -24,16 +27,18 @@ def emargement(l):
         f.write("Feuille d'émargement\n")
         for nom in l[i]:
             f.write(nom + "\n")
-        f.write(len(l[i]))
+        f.write(str(len(l[i])))
         f.close()
 
 
-print(affectation(E, S))
-f=open("L1.txt", "r")
-E=f.readlines().strip("\n")
+f=open("TP7/L1.txt", "r")
+E=f.readlines()
+f.close()
+E = [s.strip() for s in E]
 s=4
 LS=[]
-for i in range(s):
-    LS.append(int(input("Quelle est la capacité de cette salle ? ")))
+LS=[40, 20, 30, 40, 100]
+"""for i in range(s):
+    LS.append(int(input("Quelle est la capacité de cette salle ? ")))"""
 
 emargement(affectation(E, LS))
