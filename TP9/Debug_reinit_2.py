@@ -9,5 +9,4 @@ def f(n):
 M = f(5)
 print(M)
 
-
 # L'erreur L is not defined est apparue dès le début dans mon cas
