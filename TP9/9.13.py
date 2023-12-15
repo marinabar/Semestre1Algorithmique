@@ -8,5 +8,10 @@ print(fiborec(6))
 
 def fiboit(n):
     s=0
-    for i in range(1, ):
-        s+=
+    a=1
+    b=1
+    for i in range(n-2):
+        s=a+b
+        a, b=b, s
+    return s
+print(fiboit(6))
